@@ -1,0 +1,15 @@
+button {
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    font-size: 19px;
+    line-height: 40px;
+    width: 32px;
+}
+
+.controls-panel {
+    background: black;
+    display: flex;
+    align-items: center;
+}
