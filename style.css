@@ -1,4 +1,4 @@
-.js-play-button, .js-pause-button, .js-mute-button, .js-volume-button {
+.js-play-button, .js-pause-button, .js-mute-button, .js-volume-button, .js-fullscreen-button {
     border-style: none;
     cursor: pointer;
     color: white;
@@ -25,5 +25,9 @@
 }
 
 .js-video-container {
+    flex-grow: 1;
+}
+
+.space {
     flex-grow: 1;
 }
