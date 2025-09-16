@@ -1,14 +1,4 @@
-.js-play-button {
-    border-style: none;
-    cursor: pointer;
-    color: white;
-    background-color: transparent;
-    font-size: 19px;
-    line-height: 40px;
-    width: 32px;
-}
-
-.js-pause-button {
+.js-play-button, .js-pause-button, .js-mute-button, .js-volume-button {
     border-style: none;
     cursor: pointer;
     color: white;
