@@ -2,12 +2,11 @@
 
 ![max example](website.jpg)
 
-## Примеры
+## Пример
 
-Два рабочих примера:
+Рабочий пример:
 
-- Страница с минимальными настройками — [example_min.html](./example_min.html)
-- Страница с максимальными настройками — [example_max.html](./example_max.html)
+Страница с видеоплеером – [https://nik-olaso.github.io/videoplayer/](https://nik-olaso.github.io/videoplayer/)
 
 ## Как подключить
 
