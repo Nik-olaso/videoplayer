@@ -1,10 +1,10 @@
-.js-play-button, .js-pause-button, .js-mute-button, .js-volume-button, .js-fullscreen-button {
+.controls-panel button {
     border-style: none;
     cursor: pointer;
     color: white;
     background-color: transparent;
     font-size: 19px;
-    line-height: 40px;
+    height: 40px;
     width: 32px;
     margin-right: 12px;
 }
