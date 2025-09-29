@@ -1,4 +1,4 @@
-.controls-panel button {
+.player-button {
     border-style: none;
     cursor: pointer;
     color: white;
@@ -24,7 +24,7 @@
     flex-direction: column;
 }
 
-.js-video-container {
+.display {
     flex-grow: 1;
 }
 
