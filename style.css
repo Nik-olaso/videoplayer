@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
 .player-button {
     border-style: none;
     cursor: pointer;
@@ -7,6 +9,38 @@
     height: 40px;
     width: 32px;
     margin-right: 12px;
+}
+
+.time {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-right: 12px;
+}
+
+.progress-container {
+    flex-grow: 1;
+    height: 4px;
+    background-color: grey;
+    border-radius: 2px;
+    margin: 0 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.progress-slider {
+    background-color: red;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.left-time, .right-time {
+    width: 50px; 
+    text-align: center;
 }
 
 .controls-panel {
