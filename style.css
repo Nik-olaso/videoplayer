@@ -25,17 +25,34 @@
 .progress-container {
     flex-grow: 1;
     height: 4px;
-    background-color: grey;
     border-radius: 2px;
     margin: 0 8px;
     cursor: pointer;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .progress-slider {
     background-color: red;
     height: 100%;
     border-radius: 2px;
+}
+
+.progress-container:hover .dot {
+    opacity: 1;
+    transition: opacity 300ms ease-in
+}
+
+.dot{
+    height: 9px;
+    width: 9px;
+    background-color: red;
+    border: 3.5px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 300ms ease-out
 }
 
 .left-time, .right-time {
@@ -65,3 +82,4 @@
 .space {
     flex-grow: 1;
 }
+
